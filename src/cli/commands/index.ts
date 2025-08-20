@@ -13,8 +13,6 @@ import { JsonPersistenceManager } from '../../core/json-persistence.js';
 import { swarmAction } from './swarm.js';
 import { SimpleMemoryManager } from './memory.js';
 import { sparcAction } from './sparc.js';
-import { createMigrateCommand } from './migrate.js';
-import { enterpriseCommands } from './enterprise.js';
 
 // Import enhanced orchestration commands
 import { startCommand } from './start.js';
